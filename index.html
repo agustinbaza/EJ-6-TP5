@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Agustin Baza" />
+    <meta
+      name="keywords"
+      content="javascript pagina, practica, dom, ejercicios"
+    />
+    <meta name="Description" content="Punto 6 - TP5" />
+    <link rel="icon" href="./img/javascript_icon_130900.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>PUNTO 6 - TP5</title>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h6 class="text-center bg-black text-white navbar">
+          EJERCICIO 6 - TP5
+        </h6>
+      </div>
+    </header>
+
+    <main>
+
+        <div class="orden">
+            <i class="bi bi-stopwatch imagen"></i>
+          </div>
+      
+      <section class="acomodar">
+        <article class="contenedor">
+          <p class="numeros sombra" id="cronometro">00:00:00</p>
+        </article>
+
+        <article class="text-center">
+          <button class="btn btn-dark" id="botonIniciar" onclick="iniciar()">
+            <i class="bi bi-play-fill fs-3"></i>
+          </button>
+          <button class="btn btn-dark" id="botonDetener" onclick="pausa()">
+            <i class="bi bi-pause-fill fs-3"></i>
+          </button>
+          <a href="index.html">
+            <button class="btn btn-dark" type="button" id="botonReset">
+              <i class="bi bi-arrow-counterclockwise fs-3"></i>
+            </button>
+          </a>
+        </article>
+      </section>
+    </main>
+    <footer class="text-center text-light bg-black">
+      <p>&copy; Creado por Agustin Baza</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

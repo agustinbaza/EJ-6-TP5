@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan&family=Arvo&family=Bebas+Neue&family=Black+Han+Sans&family=Karla:wght@600&family=Londrina+Outline&family=Montserrat:wght@300&family=Open+Sans&family=Orbitron&family=Poppins&family=Roboto:wght@300&family=Work+Sans:wght@500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #42c0ff;
+}
+
+.numeros {
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+}
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.contenedor {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 30%;
+  padding: 40px;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+.acomodar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sombra {
+  text-shadow: 0 0 5px #42c0ff,
+   0 0 10px #42c0ff,
+   0 0 15px #42c0ff,
+   0 0 25px #42c0ff;
+}
+
+.imagen {
+  font-size: 110px;
+  color: black;
+
+}
+
+.orden {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* dispositivos small */
+
+@media all and (max-width: 767px) {
+  .contenedor {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 90%;
+    padding: 40px;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+  }
+
+  .numeros {
+    font-family: "Orbitron", sans-serif;
+    font-size: 45px;
+  }
+
+  .imagen {
+    width: 40%;
+    height: 40%;
+  }
+  
+  .orden {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+
+/* dispositivos medium */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .contenedor {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 70%;
+    padding: 80px;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  .imagen {
+    width: 30%;
+    height: 30%;
+  }
+  
+  .orden {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
