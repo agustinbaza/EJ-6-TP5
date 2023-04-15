@@ -21,10 +21,8 @@ body {
 }
 
 footer {
-  padding: 15px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  padding: 25px;
+  
 }
 
 .contenedor {
@@ -55,7 +53,7 @@ footer {
 }
 
 .imagen {
-  font-size: 110px;
+  font-size: 100px;
   color: black;
 
 }
@@ -63,7 +61,19 @@ footer {
 .orden {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 10px;
+}
+
+.formulario {
+    width: 20%;
+    margin-top: 10px;
+  
+}
+
+.orden2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* dispositivos small */
@@ -89,8 +99,8 @@ footer {
   }
 
   .imagen {
-    width: 40%;
-    height: 40%;
+    font-size: 100px;
+  color: black;
   }
   
   .orden {
@@ -98,6 +108,12 @@ footer {
     justify-content: center;
     margin-top: 40px;
   }
+
+  .formulario {
+    width: 60%;
+    margin-top: 10px;
+  
+}
 }
 
 /* dispositivos medium */
@@ -117,8 +133,8 @@ footer {
     justify-content: center;
   }
   .imagen {
-    width: 30%;
-    height: 30%;
+    font-size: 100px;
+  color: black;
   }
   
   .orden {
@@ -126,4 +142,16 @@ footer {
     justify-content: center;
     margin-top: 40px;
   }
+
+  .formulario {
+    width: 50%;
+    margin-top: 10px;
+  
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 }

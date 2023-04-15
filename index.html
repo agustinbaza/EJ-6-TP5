@@ -21,7 +21,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>PUNTO 6 - TP5</title>
@@ -37,17 +40,23 @@
     </header>
 
     <main>
+      <div class="orden">
+        <i class="bi bi-stopwatch imagen"></i>
+      </div>
 
-        <div class="orden">
-            <i class="bi bi-stopwatch imagen"></i>
-          </div>
-      
+      <div class="orden2">
+        <h4 class="text-center mb-3">Ingrese el valor del temporizador</h4>
+        <input type="number" class="form-control formulario" id="horas" value="" required placeholder="Ingrese las horas"/>
+        <input type="number" class="form-control formulario" id="minutos" value="" required placeholder="Ingrese los minutos"/>
+        <input type="number" class="form-control formulario" id="segundos" value="" required placeholder="Ingrese los segundos"/>
+      </div>
+
       <section class="acomodar">
         <article class="contenedor">
           <p class="numeros sombra" id="cronometro">00:00:00</p>
         </article>
 
-        <article class="text-center">
+        <article class="text-center" style="margin-bottom: 120px;">
           <button class="btn btn-dark" id="botonIniciar" onclick="iniciar()">
             <i class="bi bi-play-fill fs-3"></i>
           </button>
