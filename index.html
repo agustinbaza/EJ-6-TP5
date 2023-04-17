@@ -46,9 +46,43 @@
 
       <div class="orden2">
         <h4 class="text-center mb-3">Ingrese el valor del temporizador</h4>
-        <input type="number" class="form-control formulario" id="horas" value="" required placeholder="Ingrese las horas"/>
-        <input type="number" class="form-control formulario" id="minutos" value="" required placeholder="Ingrese los minutos"/>
-        <input type="number" class="form-control formulario" id="segundos" value="" required placeholder="Ingrese los segundos"/>
+        <p class="text-center">
+          Por favor ingresar valores en todos los campos <br />
+          Si no utiliza uno ingrese 0
+        </p>
+        <input
+          type="number"
+          class="form-control formulario"
+          id="horas"
+          value=""
+          required
+          placeholder="Ingrese las horas"
+        />
+        <input
+          type="number"
+          class="form-control formulario"
+          id="minutos"
+          value=""
+          required
+          placeholder="Ingrese los minutos"
+        />
+        <input
+          type="number"
+          class="form-control formulario"
+          id="segundos"
+          value=""
+          required
+          placeholder="Ingrese los segundos"
+        />
+        <button
+          type="button"
+          class="btn btn-dark mt-3"
+          id="aplicar"
+          onclick="aplicar(),mostrarMensaje()"
+        >
+          Aplicar
+        </button>
+        <p id="generado"></p>
       </div>
 
       <section class="acomodar">
@@ -56,7 +90,7 @@
           <p class="numeros sombra" id="cronometro">00:00:00</p>
         </article>
 
-        <article class="text-center" style="margin-bottom: 120px;">
+        <article class="text-center" style="margin-bottom: 120px">
           <button class="btn btn-dark" id="botonIniciar" onclick="iniciar()">
             <i class="bi bi-play-fill fs-3"></i>
           </button>

@@ -22,7 +22,6 @@ body {
 
 footer {
   padding: 25px;
-  
 }
 
 .contenedor {
@@ -46,16 +45,13 @@ footer {
 }
 
 .sombra {
-  text-shadow: 0 0 5px #42c0ff,
-   0 0 10px #42c0ff,
-   0 0 15px #42c0ff,
-   0 0 25px #42c0ff;
+  text-shadow: 0 0 5px #42c0ff, 0 0 10px #42c0ff, 0 0 15px #42c0ff,
+    0 0 25px #42c0ff;
 }
 
 .imagen {
   font-size: 100px;
   color: black;
-
 }
 
 .orden {
@@ -65,15 +61,14 @@ footer {
 }
 
 .formulario {
-    width: 20%;
-    margin-top: 10px;
-  
+  width: 20%;
+  margin-top: 10px;
 }
 
 .orden2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* dispositivos small */
@@ -100,9 +95,9 @@ footer {
 
   .imagen {
     font-size: 100px;
-  color: black;
+    color: black;
   }
-  
+
   .orden {
     display: flex;
     justify-content: center;
@@ -112,8 +107,11 @@ footer {
   .formulario {
     width: 60%;
     margin-top: 10px;
-  
-}
+  }
+
+  #generado {
+    width: 80%;
+  }
 }
 
 /* dispositivos medium */
@@ -134,9 +132,9 @@ footer {
   }
   .imagen {
     font-size: 100px;
-  color: black;
+    color: black;
   }
-  
+
   .orden {
     display: flex;
     justify-content: center;
@@ -146,12 +144,5 @@ footer {
   .formulario {
     width: 50%;
     margin-top: 10px;
-  
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+  }
 }
